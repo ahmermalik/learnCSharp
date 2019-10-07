@@ -1,0 +1,11 @@
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/bin/Debug/netcoreapp2.1/30.cSharpHelloWorld.deps.json
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/bin/Debug/netcoreapp2.1/30.cSharpHelloWorld.runtimeconfig.json
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/bin/Debug/netcoreapp2.1/30.cSharpHelloWorld.runtimeconfig.dev.json
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/bin/Debug/netcoreapp2.1/30.cSharpHelloWorld.dll
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/bin/Debug/netcoreapp2.1/30.cSharpHelloWorld.pdb
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/obj/Debug/netcoreapp2.1/30.cSharpHelloWorld.csprojAssemblyReference.cache
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/obj/Debug/netcoreapp2.1/30.cSharpHelloWorld.csproj.CoreCompileInputs.cache
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/obj/Debug/netcoreapp2.1/30.cSharpHelloWorld.AssemblyInfoInputs.cache
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/obj/Debug/netcoreapp2.1/30.cSharpHelloWorld.AssemblyInfo.cs
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/obj/Debug/netcoreapp2.1/30.cSharpHelloWorld.dll
+/Users/ahmermalik/Desktop/WebDevelopment/30.cSharpHelloWorld/obj/Debug/netcoreapp2.1/30.cSharpHelloWorld.pdb

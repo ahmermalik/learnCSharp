@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace _30.cSharpHelloWorld
+namespace HelloWorld
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MyClass c1 = new MyClass();
+            Console.WriteLine($"Hello World! {c1.ReturnMessage()}");
         }
     }
 }
