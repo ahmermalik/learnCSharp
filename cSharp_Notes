@@ -1,0 +1,10 @@
+c# & .NET notes:
+
+
+.NET Framework (Windows Only)
+
+.NET Core (Linux, Mac, Windows, ARM)
+
+
+.NET is a CLR (Common Language Runtime)
+It provides you space to run your program, manage memory for it, and send the cpu information to run processes 
