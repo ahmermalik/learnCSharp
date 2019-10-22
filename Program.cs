@@ -10,8 +10,9 @@ namespace HelloWorld
         
         
         {
-            double[] numbers = new double[3]; // explicitly declaring how many values will be within our array or doubles.
-            numbers[0] = 12.7;
+            double[] numbers = new double[3] { 12.7, 4.2, 5.1 }; // explicitly declaring how many values will be within our array of doubles and also placing the values within it.
+
+            var numberSecond = new[] { 12.7, 4.2, 5.1 }; // same as above, just looks nicer.
 
             int w = 5; // you cannot declare int and have a double or float value to it. only whole numbers.
             double x = 12.3;  // can represent fractional as well as whole values, can contain up to 15 digits in total, ncluding those before and after the decimal point.
