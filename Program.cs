@@ -10,11 +10,14 @@ namespace HelloWorld
         
         
         {
+            double[] numbers = new double[3]; // explicitly declaring how many values will be within our array or doubles.
+            numbers[0] = 12.7;
+
             int w = 5; // you cannot declare int and have a double or float value to it. only whole numbers.
             double x = 12.3;  // can represent fractional as well as whole values, can contain up to 15 digits in total, ncluding those before and after the decimal point.
             float y = 5;
-            var sum = y+x+w;
-
+            var sum = y+x+w +numbers[0];
+            
             if (args.Length > 0 )
             {
             MyClass c1 = new MyClass();
