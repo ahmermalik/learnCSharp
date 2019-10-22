@@ -14,6 +14,12 @@ namespace HelloWorld
 
             var numberSecond = new[] { 12.7, 4.2, 5.1 }; // same as above, just looks nicer.
 
+            var result = 0.0;
+            foreach(double number in numbers){
+                result += number;
+                Console.WriteLine(result);
+            }
+            
             int w = 5; // you cannot declare int and have a double or float value to it. only whole numbers.
             double x = 12.3;  // can represent fractional as well as whole values, can contain up to 15 digits in total, ncluding those before and after the decimal point.
             float y = 5;
