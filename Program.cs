@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace HelloWorld
 {
@@ -8,7 +9,7 @@ namespace HelloWorld
         //name of parameter is 'args'
         //type of this param is a string array 'string[]'
         
-        
+        // write a function to take in 5 numbers and divide it to the length of the list to find average
         {
             double[] numbers = new double[3] { 1.5, 2.25, 3.75 }; // explicitly declaring how many values will be within our array of doubles and also placing the values within it.
 
