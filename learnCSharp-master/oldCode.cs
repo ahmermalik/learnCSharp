@@ -24,13 +24,12 @@
 
 //             var result = 0.0;
 
-
-//             foreach(double number in numbers){
-//                 result += number;
-//                 Console.WriteLine(result);
-//             }
-//              var average = result / numbers.Length;
-//              Console.WriteLine( "Average is" ,average);
+            // foreach(var number in grades)
+            // {
+            //     result += number;
+            // }
+            // result /= grades.Count;
+            // Console.WriteLine($"The average grade is {result:N4}");  // N4 means how many decimal places
 
 //             int w = 5; // you cannot declare int and have a double or float value to it. only whole numbers.
 //             double x = 12.3;  // can represent fractional as well as whole values, can contain up to 15 digits in total, ncluding those before and after the decimal point.

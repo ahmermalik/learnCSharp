@@ -43,3 +43,8 @@ Class convention:
 -what should be the behavior of this class? What can it do? What state will it hold(data structure)?
     ex: it can add, remove, and sort stuff.
 -
+
+Mac 'intellisense'
+command + . will display the actions that can be used for that specific type.
+Windows
+Control + . will display the actions that can be used for that specific type.
