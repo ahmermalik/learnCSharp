@@ -1,0 +1,55 @@
+c# & .NET notes:
+
+
+.NET Framework (Windows Only)
+
+.NET Core (Linux, Mac, Windows, ARM)
+
+
+.NET is a CLR (Common Language Runtime)
+It provides you space to run your program, manage memory for it, and send the cpu information to run processes
+
+
+
+** Classes **
+
+In C# class defines a new type, a type allows you to do things.
+
+-examples of types: string, doubles.
+
+1) How do you know when to create a new class?
+you have to look and see when a method is too complex (too much functionality.)
+this is when you should find a way to **encapsulate** the code into new classes to
+be in specific to their functionality.
+
+
+ -Every class and every type you write should be within a name space. If it's not,
+it is in a global namespace and that is dangerous. someone else can put their own class in the global namespace and it can
+cause conflicts in the program, for instance within the built-in dotnet libraries.
+
+                    Examples of namespace being imported:
+                    using System;
+                    using System.Collections.Generic
+
+When you're using Console.WriteLine() it is using the System namespace.
+
+
+Namespace convention:
+-it should be limited to one namespace per file.
+
+Class convention:
+-think of class as a blue print. it defines how you'll build objects.
+-it should be limited to one class per file.
+-what should be the behavior of this class? What can it do? What state will it hold(data structure)?
+    ex: it can add, remove, and sort stuff.
+-every class will have the same behavior, but objects within the class can have unique states.
+
+
+
+
+
+
+Mac 'intellisense'
+command + . will display the actions that can be used for that specific type.
+Windows
+Control + . will display the actions that can be used for that specific type.
