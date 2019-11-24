@@ -1,0 +1,23 @@
+using System;
+using Xunit;
+
+namespace GradeBook.Tests
+{
+    public class UnitTest1
+    {
+        [Fact]                  // fact is known as an attribut, think of it as a piece of data attached to the method Test1();
+        public void Test1()
+        {
+            // arrange          // most unit tests have 3 sections: arrange, act, and assert
+            var x = 5;
+            var y = 2;
+            var expected = 10;
+
+            // act 
+            var actual = x * y;
+
+            // assert
+            Assert.Equal(expected, actual);
+        }
+    }
+}
