@@ -72,3 +72,47 @@ Value is something that would be referenced in memory, it is a value itself.
 ** Public Class Members Convention **
 
 public class should always have an uppercase name.
+
+
+
+Struct Vs. Classes
+
+Struct: 
+
+struct is a value type. ex: char
+- light versions of classes. 
+- are value types and can be used to create objects that behave like built-in types.
+- Used only when you are sure that:
+        -It logically represents a single value, like primitive types (int, double, etc.).
+        -It is immutable.
+        -It should not be boxed and un-boxed frequently.
+
+Classes:
+- are reference types, allocated on the heap and garbage-collected. 
+- assignments of large reference types are cheaper than assignments of large value types.
+- In classes, two variables can contain the reference of the same object and any operation on one variable can affect another variable.
+
+
+Example of struct vs class:
+
+e.g. Struct
+struct Location   
+{  
+    publicint x, y;  
+    publicLocation(int x, int y)  
+    {  
+        this.x = x;  
+        this.y = y;  
+    }  
+}  
+Locationa = new Location(20, 20);  
+Locationb = a;  
+a.x = 100;  
+System.Console.WriteLine(b.x)  
+;  
+
+The output will be 20. Value of "b" is a copy of "a", so "b" is unaffected by change of "a.x". 
+But in class, the output will be 100 because "a" and "b" will reference the same object.
+
+*tip*
+Press f12 while clicked on any reference.
